@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Venus Fundatrix – Female Anatomy Simulator</title>
+<link rel="icon" type="image/png" data-asset="favicon">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,600;7..72,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <main id="stage">
+    <canvas id="gl" aria-label="3D view of the female body and reproductive organs. Drag to rotate, pinch or scroll to zoom." tabindex="0"></canvas>
+    <div id="spots" class="spots" hidden data-labels="on"></div>
+    <div id="slide" hidden><img id="slide-img" alt="Transverse section of the ovary showing follicles at different stages, the Graafian follicle and the corpus luteum" data-asset="ovary" draggable="false"></div>
+    <div id="ospots" class="spots" hidden data-labels="on"></div>
+    <div class="top">
+      <div class="brand">
+        <div class="mark">
+          <img class="logo-img" data-asset="logo" alt="" draggable="false">
+          <div class="mark-text">
+            <h1>Venus Fundatrix</h1>
+            <span class="sub">Female Anatomy Simulator</span>
+          </div>
+        </div>
+        <ol class="steps" aria-label="Stages">
+          <li><button class="step" type="button" title="Stage 1: Body" aria-label="Stage 1: Body" aria-current="step"><span class="n">1</span><span class="t">Body</span></button></li>
+          <li><button class="step" type="button" title="Stage 2: Pelvic organs" aria-label="Stage 2: Pelvic organs"><span class="n">2</span><span class="t">Pelvic organs</span></button></li>
+          <li><button class="step" type="button" title="Stage 3: Uterus &amp; ovaries" aria-label="Stage 3: Uterus &amp; ovaries"><span class="n">3</span><span class="t">Uterus &amp; ovaries</span></button></li>
+          <li><button class="step" type="button" title="Stage 4: Ovary T.S." aria-label="Stage 4: Ovary T.S."><span class="n">4</span><span class="t">Ovary T.S.</span></button></li>
+        </ol>
+      </div>
+      <div class="tools">
+        <button class="icon-btn" id="btn-full" type="button" aria-pressed="false" hidden>Full screen</button>
+        <button class="icon-btn" id="btn-reset" type="button">Reset view</button>
+        <button class="icon-btn" id="btn-credits" type="button">Credits</button>
+      </div>
+    </div>
+    <div class="bottom">
+      <div class="nav">
+        <button class="btn" id="btn-back" type="button" disabled>Back</button>
+        <button class="btn primary" id="btn-next" type="button">Explore Anatomy</button>
+      </div>
+      <fieldset class="layers" id="layers" hidden>
+        <legend>Show layers</legend>
+        <label class="chip"><input type="checkbox" id="lay-bone" data-layer="bone" checked>Bones</label>
+        <label class="chip"><input type="checkbox" id="lay-lig" data-layer="ligament" checked>Ligaments</label>
+        <label class="chip"><input type="checkbox" id="lay-nb" data-layer="neighbour" checked>Bladder &amp; rectum</label>
+      </fieldset>
+      <button class="icon-btn" id="btn-labels" type="button" aria-pressed="true" hidden>Labels</button>
+    </div>
+  </main>
+  <aside class="panel">
+    <div class="panel-bar"><span class="mini" id="c-mini" aria-hidden="true"></span>
+      <button id="c-toggle" type="button" aria-expanded="true" aria-controls="card"><span class="ct">Hide info</span><span class="chev" aria-hidden="true"></span></button></div>
+    <div class="card" id="card" aria-live="polite">
+      <div class="card-head"><span class="eyebrow" id="c-eyebrow">Stage 1 of 3</span><button id="c-close" type="button" hidden>Back to overview</button></div>
+      <h2 id="c-title">Where the system lies</h2>
+      <span class="fig" id="c-fig" hidden></span>
+      <p id="c-text"></p>
+    </div>
+    <p class="hint" id="hint"></p>
+    <p class="keys">Clicker or keyboard: <kbd>→</kbd> next · <kbd>←</kbd> back · <kbd>R</kbd> reset view · <kbd>L</kbd> labels · <kbd>I</kbd> info · <kbd>F</kbd> full screen</p>
+  </aside>
+</div>
+
+<div id="loader" class="overlay"><div>
+  <img class="logo" data-asset="logo" alt="Venus Fundatrix logo" draggable="false">
+  <h2>Venus Fundatrix</h2><p>Female Anatomy Simulator</p>
+  <div class="ring"></div><p id="load-msg">Preparing the 3D models…</p>
+</div></div>
+
+<div id="lost" class="overlay" hidden><div>
+  <h2>Display paused</h2><p>The screen's graphics were reset by the device.</p>
+  <p><button class="btn primary" id="btn-restart" type="button">Restart the simulator</button></p>
+</div></div>
+
+<dialog id="credits" aria-labelledby="credits-h">
+  <h2 id="credits-h">3D model credits</h2>
+  <p>3D models from Sketchfab, used under Creative Commons licences, and an AI-generated ovary section. Fitted together and labelled for Venus Fundatrix.</p>
+  <ul id="credit-list"></ul>
+  <button class="btn" id="credits-close" type="button">Close</button>
+</dialog>
+
+<script src="assets.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

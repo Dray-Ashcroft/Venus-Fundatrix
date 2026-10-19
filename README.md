@@ -1,12 +1,16 @@
 <p align="center">
   <img src="assets/banner.png" alt="Venus Fundatrix — Interactive Female Anatomy Simulator" width="100%">
 </p><h2 align="center">Venus Fundatrix</h2><p align="center"><strong>Interactive 3D Female Anatomy Simulator</strong></p><p align="center">
-  Explore female reproductive anatomy through detailed 3D models and interactive anatomical visualization.
+  
+>Explore female reproductive anatomy through detailed 3D models and interactive anatomical visualization.
+
 </p><p align="center">
   <a href="YOUR_DEPLOYED_URL"><strong>Explore the Simulation →</strong></a>
-</p>---
+</p>
 
-🔸 Features
+---
+
+🔸 **Features**
 
 - 3D Anatomical Visualization — Explore reproductive structures through interactive 3D models.
 - Pelvic Anatomy — Examine the spatial relationships between pelvic organs.
@@ -17,13 +21,13 @@
 
 ---
 
-🔸 Learning Objectives
+🔸 **Learning Objectives**
 
 Develop an understanding of female reproductive anatomy, organ relationships, and ovarian structure through interactive visualization.
 
 ---
 
-🔸 Technology
+🔸 **Technology**
 
 - HTML5
 - CSS3
@@ -32,12 +36,12 @@ Develop an understanding of female reproductive anatomy, organ relationships, an
 
 ---
 
-🔸 Credits
+🔸 **Credits**
 
-Attribution for third-party 3D models, libraries, and other assets is provided where applicable.
+Attribution for third-party 3D models, libraries is embedded in simulation.
 
 ---
 
-🔸 License
+🔸 **License**
 
 Licensed under the "MIT License" (LICENSE).

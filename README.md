@@ -36,6 +36,30 @@ Develop an understanding of female reproductive anatomy, organ relationships, an
 
 ---
 
+🔸**Screenshots**
+
+Explore the key views of Venus Fundatrix, from full-body anatomy to detailed reproductive structures.
+
+1. Full-Body Anatomy
+
+<p align="center">
+  <img src="assets/Female%20Anatomy%20base.png" alt="Full-body 3D female anatomy view" width="80%">
+</p>2. Pelvic Anatomy
+
+<p align="center">
+  <img src="assets/Pelvis.png" alt="Interactive 3D pelvic anatomy" width="80%">
+</p>3. Uterus & Ovaries
+
+<p align="center">
+  <img src="assets/Uterus%20%26%20Ovaries.png" alt="Interactive 3D uterus, oviducts and ovaries" width="80%">
+</p>4. Ovarian Cross-Section
+
+<p align="center">
+  <img src="assets/Ovary%20TS.png" alt="Ovary transverse section showing internal ovarian structures" width="80%">
+</p>
+
+---
+
 🔸 **Credits**
 
 Attribution for third-party 3D models, libraries is embedded in simulation.

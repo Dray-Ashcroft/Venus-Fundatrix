@@ -12,12 +12,12 @@
 
 🔸 **Features**
 
-- 3D Anatomical Visualization — Explore reproductive structures through interactive 3D models.
-- Pelvic Anatomy — Examine the spatial relationships between pelvic organs.
-- Uterine & Ovarian Anatomy — Explore key structures of the female reproductive system.
-- Ovarian Cross-Section — Visualize internal ovarian structures.
-- Animated Transitions — Navigate smoothly between anatomical views.
-- Integrated 3D Models — Combine anatomical assets into a cohesive learning experience.
+- 3D Anatomical Visualization : Explore reproductive structures through interactive 3D models.
+- Pelvic Anatomy : Examine the spatial relationships between pelvic organs.
+- Uterine & Ovarian Anatomy : Explore key structures of the female reproductive system.
+- Ovarian Cross-Section : Visualize internal ovarian structures.
+- Animated Transitions : Navigate smoothly between anatomical views.
+- Integrated 3D Models : Combine anatomical assets into a cohesive learning experience.
 
 ---
 

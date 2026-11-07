@@ -73,15 +73,16 @@ Explore the key views of Venus Fundatrix, from full-body anatomy to detailed rep
 
 🧩 **3D Model Credits**
 
-• Sketchfab models (CC BY 4.0), adapted for Venus Fundatrix, plus an AI-generated ovarian cross-section.
+Sketchfab models, adapted for Venus Fundatrix, plus an AI-generated ovarian cross-section.
 
-🔸 Female Body — "camiloVenus Fundatrix. The ovarian cross-section was AI-generated.
+| Asset | Model | Creator | Licence |
+|:--|:--|:--|:--|
+| Female body | [Women/Female body base rigged](https://sketchfab.com/3d-models/womenfemale-body-base-rigged-45caea510e4b4b65bf4ef9bbb4d2045c) | camilooh | CC BY 4.0 |
+| Pelvis and reproductive organs | [adult female reproductive system](https://sketchfab.com/3d-models/adult-female-reproductive-system-94c38b5191324bc1ae1e87974cfdba58) | Education Resource Fund | CC BY 4.0 |
+| Uterus and ovaries | [Uterus](https://sketchfab.com/3d-models/uterus-0c543295600d4feaa3bf723cc1bb1730) | Beste Zengin | CC BY 4.0 |
+| Ovarian cross-section | Ovary TS Illustration | Draven Ashcroft (Biology Lecturer) | AI-generated with OpenAI 5.7 |
 
-🔸 Female Body — "camilooh" (SKETCHFAB_SOURCE_URL) · CC BYL) · CC BY 4.0
-
-🔸 Uterus & Ovaries — "bz_ medical modeling and animation" (SKETCHFAB_SOURCE_URL) · CC BY 4.0
-
-🔸 Ovary Cross-Section: By Draven Ashcroft · AI-generated using OpenAI 5.7
+<sub>Original creators retain ownership of their models. Models were adapted for this simulator.</sub>
 
 ---
 

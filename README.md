@@ -64,7 +64,7 @@ Explore the key views of Venus Fundatrix, from full-body anatomy to detailed rep
     </td>
     <td width="50%" align="center">
       <img src="assets/Ovary%20TS.png" alt="Ovary transverse section showing internal ovarian structures" width="100%">
-      <br><sub><b>4. Ovarian Cross-Section</b></sub>
+      <br><sub><b>4. Ovarian C.S.</b></sub>
     </td>
   </tr>
 </table>

@@ -28600,7 +28600,7 @@
   var CREDITS = [
     { what: "Female body", who: "camilooh", lic: "CC BY 4.0", url: "https://sketchfab.com/3d-models/womenfemale-body-base-rigged-45caea510e4b4b65bf4ef9bbb4d2045c" },
     { what: "Pelvis and reproductive organs", who: "Education Resource Fund", lic: "CC BY 4.0", url: "https://sketchfab.com/3d-models/adult-female-reproductive-system-94c38b5191324bc1ae1e87974cfdba58" },
-    { what: "Uterus and ovaries", who: "bz_ medical modeling and animation", lic: "CC BY 4.0", url: "https://sketchfab.com/3d-models/uterus-0c543295600d4feaa3bf723cc1bb1730" },
+    { what: "Uterus and ovaries", who: "Beste Zengin", lic: "CC BY 4.0", url: "https://sketchfab.com/3d-models/uterus-0c543295600d4feaa3bf723cc1bb1730" },
     { what: "Ovary TS Illustration", lines: ["By Draven Ashcroft (Biology Lecturer)", "AI Generated with Open AI - 5.7"], url: null }
   ];
 

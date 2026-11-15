@@ -1,157 +1,151 @@
 <p align="center">
-  <img src="assets/banner.png" alt="Venus Fundatrix — Interactive Female Anatomy Simulator" width="100%">
+  <img src="assets/banner.png" alt="Venus Fundatrix — Interactive 3D Female Anatomy Simulator" width="100%">
 </p>
 
-<h1 align="center">🌸 Venus Fundatrix</h1>
+<h1 align="center">Venus Fundatrix</h1>
 
 <p align="center"><em>Interactive 3D Female Anatomy Simulator</em></p>
 
 <p align="center"><a href="https://venus-fundatrix.stark-kodex.workers.dev/"><strong>Explore the Anatomy</strong></a></p>
 
 <p align="center">
-  <a href="#-about">About</a> ·
-  <a href="#-screenshots">Screenshots</a> ·
-  <a href="#-four-stages">Stages</a> ·
-  <a href="#-what-you-can-tap">Parts</a> ·
-  <a href="#-concepts-covered">Concepts</a> ·
-  <a href="#-controls">Controls</a> ·
-  <a href="#-technology">Technology</a> ·
-  <a href="#-3d-model-credits">Credits</a> ·
-  <a href="#-license">License</a>
+  <a href="#about">About</a> ·
+  <a href="#screenshots">Screenshots</a> ·
+  <a href="#stages">Stages</a> ·
+  <a href="#controls">Controls</a> ·
+  <a href="#technology">Technology</a> ·
+  <a href="#credits">Credits</a> ·
+  <a href="#license">License</a>
 </p>
-
----
 
 <p align="center"><em>Project dedicated to Lord Vishnu</em></p>
 
 ---
 
-## 📖 About
+## About
 
-An interactive 3D simulator for exploring female reproductive anatomy. It starts with the whole body and moves in, one stage at a time, to the pelvic organs, then the uterus, oviducts and ovaries, and finally a section through the ovary, so students can:
+An interactive 3D simulator of the female reproductive system. It starts with the whole body and moves inward, stage by stage, to a transverse section of the ovary. Students tap organs, ligaments and bones to read about each one.
 
-- **see where the system lies** inside the pelvic cavity
-- **tap organs, ligaments and bones** to read about each one
-- **follow the ovary from the outside to its follicles**, one stage of development at a time
-
-Built for classroom smart panels, with clicker and keyboard control. The 3D models are bundled into the app, so it also opens straight from a folder or pen drive.
+Built for classroom smart panels. All models are bundled, so it also runs offline from a folder or pen drive.
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 <table width="100%">
   <tr>
     <td width="50%" align="center">
-      <img src="assets/Female%20Anatomy%20base.png" alt="Full-body 3D female anatomy view" width="100%">
-      <br><sub><b>1. Body</b></sub>
+      <img src="assets/Female%20Anatomy%20base.png" alt="Full-body view" width="100%">
+      <br><sub><b>1 · Body</b></sub>
     </td>
     <td width="50%" align="center">
-      <img src="assets/Pelvis.png" alt="Interactive 3D pelvic anatomy" width="100%">
-      <br><sub><b>2. Pelvic organs</b></sub>
+      <img src="assets/Pelvis.png" alt="Pelvic organs" width="100%">
+      <br><sub><b>2 · Pelvic Organs</b></sub>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="assets/Uterus%20%26%20Ovaries.png" alt="Interactive 3D uterus, oviducts and ovaries" width="100%">
-      <br><sub><b>3. Uterus &amp; ovaries</b></sub>
+      <img src="assets/Uterus%20%26%20Ovaries.png" alt="Uterus, oviducts and ovaries" width="100%">
+      <br><sub><b>3 · Uterus and Ovaries</b></sub>
     </td>
     <td width="50%" align="center">
-      <img src="assets/Ovary%20TS.png" alt="Ovary transverse section showing internal ovarian structures" width="100%">
-      <br><sub><b>4. Ovary T.S.</b></sub>
+      <img src="assets/Ovary%20TS.png" alt="Ovary transverse section" width="100%">
+      <br><sub><b>4 · Ovary T.S.</b></sub>
     </td>
   </tr>
 </table>
 
 ---
 
-## 🧭 Four Stages
+## Stages
 
-A row of four numbered buttons at the top, or the **Back** and **Next** buttons, moves between stages.
+| Stage | What You See | Tap to Explore |
+|:--|:--|:--|
+| **1 · Body** | Where the system lies in the pelvic cavity | — |
+| **2 · Pelvic Organs** | Organs in place inside the bony pelvis, with bladder and rectum | Organs · Six ligaments · Bladder and rectum · Hip bones and sacrum |
+| **3 · Uterus and Ovaries** | Anteverted uterus with oviducts curving to the ovaries | Fundus · Body · Cervix · Vagina · Infundibulum · Ampulla · Isthmus · Ovary · Ovarian ligament |
+| **4 · Ovary T.S.** | Section through the ovary | Germinal epithelium · Cortex · Medulla · Follicle stages · Antrum · Secondary oocyte · Zona pellucida · Corpus luteum |
 
-| Stage | Title | What you see |
-|:-:|:--|:--|
-| **1** | **Body** · *Where the system lies* | The whole female body. The reproductive system lies mostly inside the pelvic cavity below the abdomen: a pair of ovaries and oviducts, the uterus, cervix, vagina and external genitalia, with the mammary glands. |
-| **2** | **Pelvic organs** · *Organs in place* | The skin turns see-through. The uterus sits in the middle of the bony pelvis, with the bladder in front and the rectum behind. Ligaments hold the uterus, tubes and ovaries in position. |
-| **3** | **Uterus & ovaries** · *Uterus, oviducts and ovaries* | A closer model of the uterus tilted forward (anteverted) over the bladder, with the oviducts curving out to the ovaries. Turn it to see the tilt from the side. |
-| **4** | **Ovary T.S.** · *Inside the ovary* | A transverse section of the ovary with its cortex, medulla and follicles at different stages. |
-
----
-
-## 👆 What You Can Tap
-
-Tap an organ, ligament, bone or dot to open an info card on the right. **Back to overview** closes it.
-
-| Stage | Tappable parts |
-|:--|:--|
-| **2 · Pelvic organs** | **Organs:** uterus and vagina · ovaries · oviducts (fallopian tubes) · labia minora<br>**Ligaments and tissue:** broad · round · ovarian · cardinal · uterosacral · pubocervical fascia<br>**Neighbouring organs:** urinary bladder · rectum<br>**Bones:** hip bones (pelvic girdle) · sacrum |
-| **3 · Uterus & ovaries** | Fundus · body of uterus · cervix · vagina · isthmus · ampulla · infundibulum · ovary · ovarian ligament |
-| **4 · Ovary T.S.** | Germinal epithelium · ovarian cortex · primary follicle · secondary follicle · Graafian follicle · antrum · secondary oocyte · zona pellucida · ovarian medulla · blood vessels · corpus luteum |
-
-In stage 2, the **Show layers** switches hide or show the bones, ligaments, and bladder and rectum, so you can look at the organs on their own.
+**Concepts:** pelvic anatomy · ligament support · reproductive tract · uterine wall · ovarian stroma · follicle development · oogenesis · corpus luteum and progesterone
 
 ---
 
-## 🌱 Concepts Covered
+## Controls
 
-| Area | Concepts |
+| Control | Function |
 |:--|:--|
-| Anatomy | Position of the reproductive organs in the pelvis · Organ relationships · Anteverted uterus |
-| Support | Ligaments and fascia that hold the uterus, tubes and ovaries in place · The bony pelvis |
-| Reproductive tract | Ovary, oviduct (infundibulum, ampulla, isthmus), uterus (fundus, body, cervix) and vagina · Birth canal |
-| The ovary | Ovarian stroma: cortex and medulla · Follicle stages · Graafian follicle · Corpus luteum |
-| Oogenesis | Primary oocytes arrested in prophase I · A secondary oocyte released at ovulation · Zona pellucida |
-
----
-
-## 🎮 Controls
-
-| Control | What it does |
-|:--|:--|
-| Drag | Rotate the 3D model |
-| Pinch or scroll | Zoom in and out |
+| Drag · Pinch or scroll | Rotate · Zoom |
 | Tap a part or dot | Open its info card |
-| **Back** · **Next** · numbered stage buttons | Move between stages. Next reads **Explore Anatomy**, then **Uterus close-up**, then **Inside the ovary**. |
-| **Hide info** | Collapse the info panel |
-| **Labels** | Show or hide the dots (stages 3 and 4) |
-| **Show layers** | Show or hide bones, ligaments, and bladder and rectum (stage 2) |
-| **Reset view** | Returns the model to its starting view |
-| **Full screen** | Fills the screen where the device allows it |
-| **Credits** | Opens the 3D model credits |
-
-**Clicker or keyboard:** <kbd>→</kbd> next · <kbd>←</kbd> back · <kbd>R</kbd> reset view · <kbd>L</kbd> labels · <kbd>I</kbd> info · <kbd>F</kbd> full screen
+| Back · Next · Stage buttons | Move between stages |
+| Show layers | Hide bones, ligaments, or bladder and rectum (stage 2) |
+| Labels | Show or hide label dots (stages 3 and 4) |
+| Reset view · Full screen · Credits | View and app options |
 
 ---
 
-## 💻 Technology
+## Technology
 
 HTML · CSS · JavaScript · Three.js r160 · three-mesh-bvh · Cloudflare Pages
 
-Fonts: Literata and IBM Plex (Google Fonts). Three.js and three-mesh-bvh are both MIT licensed.
+<details>
+<summary><b>Project files</b></summary>
+
+| File | Contents |
+|:--|:--|
+| `index.html` | Page structure |
+| `style.css` | Styling |
+| `app.js` | App logic, with Three.js and three-mesh-bvh bundled |
+| `assets.js` | 3D models and images (base64), for offline use |
+
+</details>
 
 ---
 
-## 🧩 3D Model Credits
+## Credits
 
-Sketchfab models, adapted for Venus Fundatrix, plus an AI-generated ovarian cross-section.
+| Contributor | Role |
+|:--|:--|
+| **Sai Prasad**, M.Sc. Agri. Entomology, ASRB NET | Project Designer |
+| Claude Opus 5.5 | Development |
+| OpenAI GPT Luna 5.7 | Image Generation |
+| Perplexity Sonar 2 | Scientific Reasoning |
+
+<details>
+<summary><b>3D models</b></summary>
 
 | Asset | Model | Creator | Licence |
 |:--|:--|:--|:--|
 | Female body | [Women/Female body base rigged](https://sketchfab.com/3d-models/womenfemale-body-base-rigged-45caea510e4b4b65bf4ef9bbb4d2045c) | camilooh | CC BY 4.0 |
-| Pelvis and reproductive organs | [adult female reproductive system](https://sketchfab.com/3d-models/adult-female-reproductive-system-94c38b5191324bc1ae1e87974cfdba58) | Education Resource Fund | CC BY 4.0 |
+| Pelvis and organs | [adult female reproductive system](https://sketchfab.com/3d-models/adult-female-reproductive-system-94c38b5191324bc1ae1e87974cfdba58) | Education Resource Fund | CC BY 4.0 |
 | Uterus and ovaries | [Uterus](https://sketchfab.com/3d-models/uterus-0c543295600d4feaa3bf723cc1bb1730) | Beste Zengin | CC BY 4.0 |
-| Ovarian cross-section | Ovary TS Illustration | Draven Ashcroft (Biology Lecturer) | AI-generated with OpenAI 5.7 |
+| Ovary T.S. | Ovary TS Illustration | Sai Prasad | AI-generated (OpenAI GPT Luna 5.7) |
 
-<sub>Licence for the CC BY 4.0 models: [creativecommons.org/licenses/by/4.0](https://creativecommons.org/licenses/by/4.0/). Original creators retain ownership of their models. Models were adapted for this simulator: fitted together, resized and labelled.</sub>
+Models were fitted together, resized and labelled for this simulator. Original creators retain ownership. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+</details>
+
+<details>
+<summary><b>Libraries and fonts</b></summary>
+
+| Component | Licence |
+|:--|:--|
+| Three.js r160 · three-mesh-bvh | MIT |
+| Literata · IBM Plex Sans · IBM Plex Mono | SIL Open Font License 1.1 |
+
+</details>
 
 ---
 
-## 📜 License
+## Releases
 
-Licensed under the **MIT License** (see [LICENSE](LICENSE)). The 3D models keep their own licences (see [3D Model Credits](#-3d-model-credits)).
+| Release | Title | Date |
+|:--|:--|:--|
+| RC X | Final Release | 19 Oct 2026 |
 
 ---
 
-<p align="center">
-  <b>Repository</b>: GitHub · Codeberg &nbsp;&nbsp;|&nbsp;&nbsp; <b>Hosting</b>: Cloudflare Pages
-</p>
+## License
+
+Source code: **MIT License** (see [LICENSE](LICENSE)). 3D models keep their own licences.
+
+<p align="center"><sub>GitHub · Codeberg &nbsp;|&nbsp; Hosted on Cloudflare Pages</sub></p>

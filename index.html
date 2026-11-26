@@ -35,7 +35,7 @@
       <div class="tools">
         <button class="icon-btn" id="btn-full" type="button" aria-pressed="false" hidden>Full screen</button>
         <button class="icon-btn" id="btn-reset" type="button">Reset view</button>
-        <button class="icon-btn" id="btn-credits" type="button">Credits</button>
+        <button class="icon-btn credit-btn" id="btn-credits" type="button" title="Credits" aria-label="Credits">&copy;</button>
       </div>
     </div>
     <div class="bottom">
@@ -78,7 +78,9 @@
 </div></div>
 
 <dialog id="credits" aria-labelledby="credits-h">
-  <h2 id="credits-h">3D model credits</h2>
+  <h2 id="credits-h">Credits</h2>
+  <p class="designer"><b>Project Designer:</b> Sai Prasad, MSc. Agri Entomology</p>
+  <h3 class="credits-sub">3D model credits</h3>
   <p>3D models from Sketchfab, used under Creative Commons licences, and an AI-generated ovary section. Fitted together and labelled for Venus Fundatrix.</p>
   <ul id="credit-list"></ul>
   <button class="btn" id="credits-close" type="button">Close</button>

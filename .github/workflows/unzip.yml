@@ -1,0 +1,40 @@
+name: Unzip upload
+
+on:
+  push:
+    paths:
+      - '*.zip'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  unzip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Unpack every uploaded zip on top of the existing files, then remove the zips.
+      # A zip may include a ".remove" file listing old paths (one per line) to delete.
+      - name: Merge uploaded zips into the repo
+        run: |
+          shopt -s nullglob
+          zips=(*.zip)
+          [ ${#zips[@]} -eq 0 ] && { echo "No zips"; exit 0; }
+          for z in "${zips[@]}"; do unzip -o -q "$z" -d .; done
+          git rm -q --cached -- "${zips[@]}"
+          rm -f -- "${zips[@]}"
+          if [ -f .remove ]; then
+            while IFS= read -r p || [ -n "$p" ]; do
+              p="${p%$'\r'}"; [ -z "$p" ] && continue
+              case "$p" in /*|*..*|.github/*) echo "Skipped: $p"; continue;; esac
+              [ -e "$p" ] && git rm -q -r -- "$p" && echo "Removed: $p"
+            done < .remove
+            rm -f .remove
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Merge uploaded zips into repo" || echo "Nothing to commit"
+          git push
